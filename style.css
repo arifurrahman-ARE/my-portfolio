@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background: #c91212;
+    color: white;
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav ul li {
+    margin-left: 20px;
+
+
+}
+
+nav ul li a {
+
+    text-decoration: none;
+}
+
+.section {
+    padding: 60px 40px;
+    text-align: center;
+}
+
+#home span {
+    color: #007bff;
+}
+
+button {
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.skills div {
+    background: white;
+    padding: 15px 25px;
+    border-radius: 5px;
+}
+
+.project {
+    background: white;
+    padding: 10px;
+    margin: 10px auto;
+    width: 250px;
+}
+
+input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 250px;
+    border-width: 10px;
+}
+
+input:hover {
+
+    border-color: #007bff;
+}
+
+button:hover {
+    background: yellow;
+    color: green;
+}
+
+#btn:hover {
+    background: tomato;
+    color: black;
+}
+
+
+
+#divs {
+    background: rgb(109, 109, 82);
+    color: rgb(85, 187, 90);
+
+}
+
+#divs:hover {
+    background: #48e201;
+    color: black;
+
+}
+
+#s {
+    color: rgb(1, 1, 255);
+}

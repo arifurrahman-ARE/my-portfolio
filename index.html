@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="/Portfolio/style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <h2>Arifur Rahman</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home -->
+    <section id="home" class="section">
+        <h1>Hello, I'm <span>Arifur Rahman</span></h1>
+        <p>Fronted Web Developer</p>
+        <button id="btn" onclick="showMessage()">Hire Me</button>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+        <h2 id="s">About Me</h2>
+        <p>I build recsponsive website websites using HTML, CSS and JavaScript.</p>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+        <div id="ski">
+            <h2 id="s">My Skills</h2>
+        </div>
+        <div class="skills">
+            <div id="divs">HTML5</div>
+            <div id="divs">CSS3</div>
+            <div id="divs">JavaScript</div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+        <h2 id="s">Projects</h2>
+        <div class="Projects">
+            <h3>Portfolio Website</h3>
+            <p>Simple personal portfolio</p>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+        <h2 id="s">Contact Me</h2>
+        <input type="text" placeholder=" Enter Your Name">
+        <input type="email" placeholder="Enter your Email">
+        <input type="password" placeholder="Enter your Password">
+        <button onclick="contactAlert()">Send</button>
+    </section>
+
+    <script src="/Portfolio/script.js"></script>
+</body>
+
+</html>
